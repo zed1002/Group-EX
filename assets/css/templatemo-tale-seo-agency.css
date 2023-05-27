@@ -1882,11 +1882,6 @@ body {
 }
 
 @media (max-width: 992px) {
-  .services::before {
-    width:0px !important;
-    height: 0px !important;
-  }
-  
   .pre-header .left-info ul li {
     padding-right: 10px;
     margin-right: 10px;

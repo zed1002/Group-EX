@@ -135,7 +135,7 @@ body {
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #5b03e4;
+  background-color: #f9b232;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -156,7 +156,7 @@ body {
 .second-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #c03afe;
+  background-color: #3b0171;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -189,7 +189,7 @@ body {
   height: 2px;
   margin-bottom: 20px;
   background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
+  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, #6200EB 100%);
 }
 
 .section-heading h2 {
@@ -335,7 +335,7 @@ Header Style
 .header-area {
   position: absolute;
   background: #3b0171;
-  background: linear-gradient(90deg, #3b0171 0%, #f9b232 100%);
+  background: linear-gradient(90deg, #3b0171 0%, #a451f1 100%);
   height: 110px;
   top: 57px;
   left: 0;
@@ -824,7 +824,7 @@ Banner Style
 
 .main-banner {
   position: relative;
-  padding: 295px 0px 185px 0px;
+  padding: 295px 0px 8px 0px;
 }
 
 .main-banner:after {
@@ -913,7 +913,7 @@ Services Style
 }
 
 .services::before {
-  content: url(../images/ss.png);
+  content: url(../images/ss*.png);
   top: 120px;
   left: 0;
   position: absolute;
@@ -1049,7 +1049,7 @@ Infos Style
 */
 
 .infos {
-  background: linear-gradient(90deg, #3b0171 0%, #f9b232 100%);
+  background: linear-gradient(90deg, #3b0171 0%, #a451f1 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1240,7 +1240,7 @@ Contact Style
 .contact-us-content .more-info {
   text-align: center;
   background: rgb(85,0,227);
-  background: linear-gradient(90deg, #3b0171 0%, #f9b232 100%);
+  background: linear-gradient(90deg, #3b0171 0%, #a451f1 100%);
   border-radius: 0px 0px 23px 23px;
   padding: 45px 30px 15px 30px;
 }
@@ -1251,7 +1251,7 @@ Contact Style
 }
 
 .contact-us-content .more-info i {
-  font-size: 32px;
+  font-size: 15px;
   color: #fff;
   margin-bottom: 15px;
 }
@@ -1291,7 +1291,7 @@ Page Heading Style
 */
 
 .page-heading {
-  padding: 120px 0px;
+  padding: -123px 0px;
   margin-top: 110px;
 }
 
@@ -1307,7 +1307,7 @@ Page Heading Style
 
 .page-heading h6 {
   font-size: 20px;
-  color: #5b03e4;
+  color: #f9b232;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -1321,7 +1321,7 @@ Page Heading Style
 
 .page-heading h4 {
   font-size: 52px;
-  color: #2a2a2a;
+  color: #3b0171;
   font-weight: 700;
   line-height: 70px;
   margin-bottom: 20px;
@@ -1329,7 +1329,7 @@ Page Heading Style
 
 .page-heading h4 em {
   font-style: normal;
-  color: #5b03e4;
+  color: #3b0171;
 }
 
 .page-heading h4 span {
@@ -1883,8 +1883,8 @@ body {
 
 @media (max-width: 992px) {
   .services::before {
-    width:0px;
-    height: 0px;
+    width:0px !important;
+    height: 0px !important;
   }
   
   .pre-header .left-info ul li {

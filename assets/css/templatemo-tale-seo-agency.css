@@ -1825,6 +1825,10 @@ body {
 }
 
 @media (max-width: 767px) {
+  .services::before {
+    width:0px;
+    height: 0px;
+  }
   .pre-header {
     display: none;
   }
@@ -1871,13 +1875,25 @@ body {
     left: 50%;
     transform: translate(-23px, -23px);
   }
+  .main-banner:after {
+    width:0px;
+    height:0px;
+  }
 }
 
 @media (max-width: 992px) {
+  .services::before {
+    width:0px;
+    height: 0px;
+  }
+  
   .pre-header .left-info ul li {
     padding-right: 10px;
     margin-right: 10px;
   }
+  .main-banner:after {
+    width:0px;
+    height:0px;}
   .pre-header .left-info ul li a {
     font-size: 13px;
   }
@@ -1969,9 +1985,10 @@ body {
 }
 
 @media (max-width: 1200px) {
+
   .services::before {
-    top: 60%;
-    transform: translateY(-50%);
+    width:0px;
+    height: 0px;
   }
 }
 
